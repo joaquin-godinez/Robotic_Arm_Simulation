@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:81 (file):
+  file INSTALL cannot find
+  "/home/joaquin/robot_arm_ws/src/mycobot_ros2/mycobot_gazebo/scripts/test_set_joint_trajectory_publisher.py":
+  No such file or directory.
+
+[0m

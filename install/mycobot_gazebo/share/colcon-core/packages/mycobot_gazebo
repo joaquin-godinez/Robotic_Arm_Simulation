@@ -1,0 +1,1 @@
+controller_manager:gazebo_ros:ros_gz:ros_gz_bridge:ros_gz_image:ros_gz_sim:trajectory_msgs:xacro

@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.001148] (mycobot_gazebo) JobQueued: {'identifier': 'mycobot_gazebo', 'dependencies': OrderedDict()}
+[0.001263] (mycobot_gazebo) JobStarted: {'identifier': 'mycobot_gazebo'}
+[0.044396] (mycobot_gazebo) JobProgress: {'identifier': 'mycobot_gazebo', 'progress': 'cmake'}
+[0.048043] (mycobot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/joaquin/robot_arm_ws/src/mycobot_ros2/mycobot_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/joaquin/robot_arm_ws/install/mycobot_gazebo'], 'cwd': '/home/joaquin/robot_arm_ws/build/mycobot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joaquin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joaquin/nav2_ws/install/nav2_smoother/lib:/home/joaquin/nav2_ws/install/nav2_controller/lib:/home/joaquin/nav2_ws/install/dwb_plugins/lib:/home/joaquin/nav2_ws/install/dwb_critics/lib:/home/joaquin/nav2_ws/install/dwb_core/lib:/home/joaquin/nav2_ws/install/nav_2d_utils/lib:/home/joaquin/nav2_ws/install/dwb_msgs/lib:/home/joaquin/nav2_ws/install/nav_2d_msgs/lib:/home/joaquin/nav2_ws/install/nav2_waypoint_follower/lib:/home/joaquin/nav2_ws/install/nav2_theta_star_planner/lib:/home/joaquin/nav2_ws/install/nav2_smac_planner/lib:/home/joaquin/nav2_ws/install/nav2_rotation_shim_controller/lib:/home/joaquin/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/joaquin/nav2_ws/install/nav2_planner/lib:/home/joaquin/nav2_ws/install/nav2_navfn_planner/lib:/home/joaquin/nav2_ws/install/nav2_mppi_controller/lib:/home/joaquin/nav2_ws/install/nav2_constrained_smoother/lib:/home/joaquin/nav2_ws/install/nav2_bt_navigator/lib:/home/joaquin/nav2_ws/install/nav2_behaviors/lib:/home/joaquin/nav2_ws/install/nav2_collision_monitor/lib:/home/joaquin/nav2_ws/install/costmap_queue/lib:/home/joaquin/nav2_ws/install/nav2_costmap_2d/lib:/home/joaquin/nav2_ws/install/nav2_voxel_grid/lib:/home/joaquin/nav2_ws/install/nav2_velocity_smoother/lib:/home/joaquin/nav2_ws/install/nav2_rviz_plugins/lib:/home/joaquin/nav2_ws/install/nav2_map_server/lib:/home/joaquin/nav2_ws/install/nav2_lifecycle_manager/lib:/home/joaquin/nav2_ws/install/nav2_behavior_tree/lib:/home/joaquin/nav2_ws/install/nav2_amcl/lib:/home/joaquin/nav2_ws/install/nav2_util/lib:/home/joaquin/nav2_ws/install/nav2_msgs/lib:/home/joaquin/dev_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/joaquin'), ('OLDPWD', '/home/joaquin'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1758'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joaquin/robot_arm_ws/install:/home/joaquin/nav2_ws/install:/home/joaquin/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'joaquin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joaquin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu2204:@/tmp/.ICE-unix/1510,unix/Ubuntu2204:/tmp/.ICE-unix/1510'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d3fd2853_6439_4037_a271_0d43d809d253'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QDOZM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joaquin/nav2_ws/install/nav2_system_tests:/home/joaquin/nav2_ws/install/nav2_bringup:/home/joaquin/nav2_ws/install/navigation2:/home/joaquin/nav2_ws/install/nav2_smoother:/home/joaquin/nav2_ws/install/nav2_dwb_controller:/home/joaquin/nav2_ws/install/nav2_controller:/home/joaquin/nav2_ws/install/dwb_plugins:/home/joaquin/nav2_ws/install/dwb_critics:/home/joaquin/nav2_ws/install/dwb_core:/home/joaquin/nav2_ws/install/nav_2d_utils:/home/joaquin/nav2_ws/install/dwb_msgs:/home/joaquin/nav2_ws/install/nav_2d_msgs:/home/joaquin/nav2_ws/install/nav2_waypoint_follower:/home/joaquin/nav2_ws/install/nav2_theta_star_planner:/home/joaquin/nav2_ws/install/nav2_smac_planner:/home/joaquin/nav2_ws/install/nav2_rotation_shim_controller:/home/joaquin/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joaquin/nav2_ws/install/nav2_planner:/home/joaquin/nav2_ws/install/nav2_navfn_planner:/home/joaquin/nav2_ws/install/nav2_mppi_controller:/home/joaquin/nav2_ws/install/nav2_constrained_smoother:/home/joaquin/nav2_ws/install/nav2_bt_navigator:/home/joaquin/nav2_ws/install/nav2_behaviors:/home/joaquin/nav2_ws/install/nav2_core:/home/joaquin/nav2_ws/install/nav2_collision_monitor:/home/joaquin/nav2_ws/install/costmap_queue:/home/joaquin/nav2_ws/install/nav2_costmap_2d:/home/joaquin/nav2_ws/install/nav2_voxel_grid:/home/joaquin/nav2_ws/install/nav2_velocity_smoother:/home/joaquin/nav2_ws/install/nav2_rviz_plugins:/home/joaquin/nav2_ws/install/nav2_map_server:/home/joaquin/nav2_ws/install/nav2_lifecycle_manager:/home/joaquin/nav2_ws/install/nav2_behavior_tree:/home/joaquin/nav2_ws/install/nav2_amcl:/home/joaquin/nav2_ws/install/nav2_util:/home/joaquin/nav2_ws/install/nav2_simple_commander:/home/joaquin/nav2_ws/install/nav2_msgs:/home/joaquin/nav2_ws/install/nav2_common:/home/joaquin/dev_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GAZBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joaquin/robot_arm_ws/build/mycobot_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joaquin/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/joaquin/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/joaquin/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/joaquin/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/joaquin/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/home/joaquin/dev_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/joaquin/nav2_ws/install/nav2_system_tests:/home/joaquin/nav2_ws/install/nav2_bringup:/home/joaquin/nav2_ws/install/navigation2:/home/joaquin/nav2_ws/install/nav2_smoother:/home/joaquin/nav2_ws/install/nav2_dwb_controller:/home/joaquin/nav2_ws/install/nav2_controller:/home/joaquin/nav2_ws/install/dwb_plugins:/home/joaquin/nav2_ws/install/dwb_critics:/home/joaquin/nav2_ws/install/dwb_core:/home/joaquin/nav2_ws/install/nav_2d_utils:/home/joaquin/nav2_ws/install/dwb_msgs:/home/joaquin/nav2_ws/install/nav_2d_msgs:/home/joaquin/nav2_ws/install/nav2_waypoint_follower:/home/joaquin/nav2_ws/install/nav2_theta_star_planner:/home/joaquin/nav2_ws/install/nav2_smac_planner:/home/joaquin/nav2_ws/install/nav2_rotation_shim_controller:/home/joaquin/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joaquin/nav2_ws/install/nav2_planner:/home/joaquin/nav2_ws/install/nav2_navfn_planner:/home/joaquin/nav2_ws/install/nav2_mppi_controller:/home/joaquin/nav2_ws/install/nav2_constrained_smoother:/home/joaquin/nav2_ws/install/nav2_bt_navigator:/home/joaquin/nav2_ws/install/nav2_behaviors:/home/joaquin/nav2_ws/install/nav2_core:/home/joaquin/nav2_ws/install/nav2_collision_monitor:/home/joaquin/nav2_ws/install/costmap_queue:/home/joaquin/nav2_ws/install/nav2_costmap_2d:/home/joaquin/nav2_ws/install/nav2_voxel_grid:/home/joaquin/nav2_ws/install/nav2_velocity_smoother:/home/joaquin/nav2_ws/install/nav2_rviz_plugins:/home/joaquin/nav2_ws/install/nav2_map_server:/home/joaquin/nav2_ws/install/nav2_lifecycle_manager:/home/joaquin/nav2_ws/install/nav2_behavior_tree:/home/joaquin/nav2_ws/install/nav2_amcl:/home/joaquin/nav2_ws/install/nav2_util:/home/joaquin/nav2_ws/install/nav2_msgs:/home/joaquin/nav2_ws/install/nav2_common:/home/joaquin/dev_ws/install/turtlesim:/home/joaquin/nav2_ws/install/nav2_simple_commander:/opt/ros/humble')]), 'shell': False}
+[0.099564] (-) TimerEvent: {}
+[0.110117] (mycobot_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200934] (-) TimerEvent: {}
+[0.302764] (-) TimerEvent: {}
+[0.407416] (-) TimerEvent: {}
+[0.492274] (mycobot_gazebo) StdoutLine: {'line': b'-- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.509170] (-) TimerEvent: {}
+[0.590089] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.598019] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.610155] (-) TimerEvent: {}
+[0.618594] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.662496] (mycobot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.714244] (-) TimerEvent: {}
+[0.723368] (mycobot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.817002] (-) TimerEvent: {}
+[0.918896] (-) TimerEvent: {}
+[1.026135] (-) TimerEvent: {}
+[1.130920] (-) TimerEvent: {}
+[1.238105] (-) TimerEvent: {}
+[1.345108] (-) TimerEvent: {}
+[1.454459] (-) TimerEvent: {}
+[1.564945] (-) TimerEvent: {}
+[1.674698] (-) TimerEvent: {}
+[1.782966] (-) TimerEvent: {}
+[1.892496] (-) TimerEvent: {}
+[1.998089] (-) TimerEvent: {}
+[2.099661] (-) TimerEvent: {}
+[2.200873] (-) TimerEvent: {}
+[2.307183] (-) TimerEvent: {}
+[2.413180] (-) TimerEvent: {}
+[2.519794] (-) TimerEvent: {}
+[2.622093] (-) TimerEvent: {}
+[2.689018] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.696748] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.726571] (-) TimerEvent: {}
+[2.796942] (mycobot_gazebo) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.828374] (-) TimerEvent: {}
+[2.829878] (mycobot_gazebo) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.905120] (mycobot_gazebo) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.929217] (-) TimerEvent: {}
+[2.934261] (mycobot_gazebo) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.980935] (mycobot_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.043413] (-) TimerEvent: {}
+[3.146308] (-) TimerEvent: {}
+[3.250379] (-) TimerEvent: {}
+[3.351144] (-) TimerEvent: {}
+[3.452887] (-) TimerEvent: {}
+[3.554856] (-) TimerEvent: {}
+[3.658024] (-) TimerEvent: {}
+[3.764217] (-) TimerEvent: {}
+[3.864988] (-) TimerEvent: {}
+[3.968553] (-) TimerEvent: {}
+[4.077550] (-) TimerEvent: {}
+[4.178392] (-) TimerEvent: {}
+[4.287734] (-) TimerEvent: {}
+[4.397356] (-) TimerEvent: {}
+[4.498322] (-) TimerEvent: {}
+[4.602569] (-) TimerEvent: {}
+[4.710815] (-) TimerEvent: {}
+[4.801720] (mycobot_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[4.811248] (-) TimerEvent: {}
+[4.908708] (mycobot_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[4.911704] (-) TimerEvent: {}
+[5.010899] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.011892] (-) TimerEvent: {}
+[5.023564] (mycobot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.027292] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.048370] (mycobot_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.049417] (mycobot_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.076930] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.077749] (mycobot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.078275] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.078590] (mycobot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.079022] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.079826] (mycobot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.079983] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.080133] (mycobot_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.080329] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.080502] (mycobot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.080717] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.080872] (mycobot_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.112535] (-) TimerEvent: {}
+[5.213463] (-) TimerEvent: {}
+[5.314769] (-) TimerEvent: {}
+[5.416441] (-) TimerEvent: {}
+[5.519041] (-) TimerEvent: {}
+[5.619637] (-) TimerEvent: {}
+[5.720643] (-) TimerEvent: {}
+[5.821438] (-) TimerEvent: {}
+[5.897235] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.898535] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[5.900009] (mycobot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[5.923090] (-) TimerEvent: {}
+[5.966655] (mycobot_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[6.008660] (mycobot_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[6.023622] (-) TimerEvent: {}
+[6.025986] (mycobot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[6.093538] (mycobot_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[6.123839] (-) TimerEvent: {}
+[6.228932] (-) TimerEvent: {}
+[6.273677] (mycobot_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[6.329058] (-) TimerEvent: {}
+[6.336745] (mycobot_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[6.429170] (-) TimerEvent: {}
+[6.494628] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.496613] (mycobot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[6.530236] (-) TimerEvent: {}
+[6.576492] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.595041] (mycobot_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[6.631711] (-) TimerEvent: {}
+[6.659024] (mycobot_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[6.734217] (-) TimerEvent: {}
+[6.814019] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.815119] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.816468] (mycobot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[6.817062] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[6.817383] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[6.834576] (-) TimerEvent: {}
+[6.857255] (mycobot_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[6.858409] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[6.860393] (mycobot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[6.861565] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.864753] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[6.865803] (mycobot_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[6.942085] (-) TimerEvent: {}
+[7.024660] (mycobot_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[7.042718] (-) TimerEvent: {}
+[7.087516] (mycobot_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[7.146628] (-) TimerEvent: {}
+[7.250256] (-) TimerEvent: {}
+[7.256955] (mycobot_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[7.321159] (mycobot_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[7.351132] (-) TimerEvent: {}
+[7.452863] (-) TimerEvent: {}
+[7.475443] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[7.476750] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.477828] (mycobot_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.482519] (mycobot_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[7.497907] (mycobot_gazebo) StdoutLine: {'line': b'-- Found ros_gz: 0.244.14 (/opt/ros/humble/share/ros_gz/cmake)\n'}
+[7.498674] (mycobot_gazebo) StdoutLine: {'line': b'-- Found ros_gz_bridge: 0.244.14 (/opt/ros/humble/share/ros_gz_bridge/cmake)\n'}
+[7.553693] (-) TimerEvent: {}
+[7.655624] (-) TimerEvent: {}
+[7.756788] (-) TimerEvent: {}
+[7.857361] (-) TimerEvent: {}
+[7.958291] (-) TimerEvent: {}
+[8.059670] (-) TimerEvent: {}
+[8.120500] (mycobot_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.159843] (-) TimerEvent: {}
+[8.263955] (-) TimerEvent: {}
+[8.366369] (-) TimerEvent: {}
+[8.467110] (-) TimerEvent: {}
+[8.568735] (-) TimerEvent: {}
+[8.669627] (-) TimerEvent: {}
+[8.770602] (-) TimerEvent: {}
+[8.871636] (-) TimerEvent: {}
+[8.972514] (-) TimerEvent: {}
+[9.074715] (-) TimerEvent: {}
+[9.175520] (-) TimerEvent: {}
+[9.276059] (-) TimerEvent: {}
+[9.377444] (-) TimerEvent: {}
+[9.479107] (-) TimerEvent: {}
+[9.579814] (-) TimerEvent: {}
+[9.680490] (-) TimerEvent: {}
+[9.781346] (-) TimerEvent: {}
+[9.882850] (-) TimerEvent: {}
+[9.983730] (-) TimerEvent: {}
+[10.085239] (-) TimerEvent: {}
+[10.189710] (-) TimerEvent: {}
+[10.289935] (mycobot_gazebo) StdoutLine: {'line': b'-- Found ros_gz_sim: 0.244.14 (/opt/ros/humble/share/ros_gz_sim/cmake)\n'}
+[10.290356] (-) TimerEvent: {}
+[10.298651] (mycobot_gazebo) StdoutLine: {'line': b'-- Found ros_gz_image: 0.244.14 (/opt/ros/humble/share/ros_gz_image/cmake)\n'}
+[10.299781] (mycobot_gazebo) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[10.394334] (-) TimerEvent: {}
+[10.484188] (mycobot_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):\n'}
+[10.484843] (mycobot_gazebo) StderrLine: {'line': b'  ament_python_install_package() the Python package folder\n'}
+[10.485122] (mycobot_gazebo) StderrLine: {'line': b"  '/home/joaquin/robot_arm_ws/src/mycobot_ros2/mycobot_gazebo/mycobot_gazebo'\n"}
+[10.485382] (mycobot_gazebo) StderrLine: {'line': b"  doesn't contain an '__init__.py' file\n"}
+[10.485562] (mycobot_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.485716] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[10.485964] (mycobot_gazebo) StderrLine: {'line': b'  CMakeLists.txt:26 (ament_python_install_package)\n'}
+[10.486133] (mycobot_gazebo) StderrLine: {'line': b'\n'}
+[10.486283] (mycobot_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[10.487456] (mycobot_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.487747] (mycobot_gazebo) StdoutLine: {'line': b'See also "/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[10.494519] (-) TimerEvent: {}
+[10.523493] (mycobot_gazebo) CommandEnded: {'returncode': 1}
+[10.594715] (-) TimerEvent: {}
+[10.609165] (mycobot_gazebo) JobEnded: {'identifier': 'mycobot_gazebo', 'rc': 1}
+[10.623026] (-) EventReactorShutdown: {}

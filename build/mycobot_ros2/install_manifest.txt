@@ -1,0 +1,15 @@
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/ament_index/resource_index/package_run_dependencies/mycobot_ros2
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/ament_index/resource_index/parent_prefix_path/mycobot_ros2
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/environment/ament_prefix_path.sh
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/environment/ament_prefix_path.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/environment/path.sh
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/environment/path.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.bash
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.sh
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.zsh
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/package.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/ament_index/resource_index/packages/mycobot_ros2
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/cmake/mycobot_ros2Config.cmake
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/cmake/mycobot_ros2Config-version.cmake
+/home/joaquin/robot_arm_ws/install/mycobot_ros2/share/mycobot_ros2/package.xml

@@ -1,0 +1,15 @@
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/package.dsv
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+/home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/package.xml

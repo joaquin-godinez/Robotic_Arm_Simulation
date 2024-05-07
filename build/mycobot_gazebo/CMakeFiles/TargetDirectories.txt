@@ -1,0 +1,11 @@
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/uninstall.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/mycobot_gazebo_uninstall.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/ament_cmake_python_copy_mycobot_gazebo.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/ament_cmake_python_build_mycobot_gazebo_egg.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/test.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/edit_cache.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/list_install_components.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/install.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/install/local.dir
+/home/joaquin/robot_arm_ws/build/mycobot_gazebo/CMakeFiles/install/strip.dir

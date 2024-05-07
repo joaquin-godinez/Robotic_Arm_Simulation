@@ -1,0 +1,20 @@
+[0.090s] Invoking command in '/home/joaquin/robot_arm_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaquin/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/joaquin/robot_arm_ws/build/mycobot_description -- -j8 -l8
+[0.387s] Invoked command in '/home/joaquin/robot_arm_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaquin/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/joaquin/robot_arm_ws/build/mycobot_description -- -j8 -l8
+[0.551s] Invoking command in '/home/joaquin/robot_arm_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaquin/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/joaquin/robot_arm_ws/build/mycobot_description
+[0.581s] -- Install configuration: ""
+[0.582s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[0.583s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[0.586s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[0.586s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[0.587s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[0.587s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[0.588s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[0.588s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[0.588s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[0.589s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[0.589s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[0.589s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[0.589s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[0.589s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[0.590s] -- Up-to-date: /home/joaquin/robot_arm_ws/install/mycobot_description/share/mycobot_description/package.xml
+[0.594s] Invoked command in '/home/joaquin/robot_arm_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaquin/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/joaquin/robot_arm_ws/build/mycobot_description

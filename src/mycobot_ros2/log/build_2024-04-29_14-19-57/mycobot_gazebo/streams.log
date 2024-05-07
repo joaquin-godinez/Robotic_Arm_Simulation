@@ -1,0 +1,124 @@
+[0.017s] Invoking command in '/home/joaquin/robot_arm_ws/src/mycobot_ros2/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaquin/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/joaquin/robot_arm_ws/src/mycobot_ros2/mycobot_gazebo -DCMAKE_INSTALL_PREFIX=/home/joaquin/robot_arm_ws/src/mycobot_ros2/install/mycobot_gazebo
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.305s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.644s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.819s] -- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.957s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.973s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.994s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.986s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.996s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.071s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.172s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.175s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.199s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.211s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.222s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.241s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.268s] -- Looking for pthread.h
+[2.381s] -- Looking for pthread.h - found
+[2.382s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.498s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.499s] -- Found Threads: TRUE  
+[3.216s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.242s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.243s] -- Checking for module 'bullet>=2.82'
+[3.268s] --   Found bullet, version 3.05
+[3.470s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.564s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.615s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.682s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.709s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.724s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.736s] -- Searching for dependencies of ignition-math6
+[3.737s] -- Looking for OGRE...
+[3.738s] -- OGRE_PREFIX_WATCH changed.
+[3.746s] -- Checking for module 'OGRE'
+[3.772s] --   Found OGRE, version 1.9.0
+[3.835s] -- Found Ogre Ghadamon (1.9.0)
+[3.851s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.863s] -- Looking for OGRE_Paging...
+[3.876s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.876s] -- Looking for OGRE_Terrain...
+[3.889s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.889s] -- Looking for OGRE_Property...
+[3.902s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.902s] -- Looking for OGRE_RTShaderSystem...
+[3.915s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.915s] -- Looking for OGRE_Volume...
+[3.930s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.930s] -- Looking for OGRE_Overlay...
+[3.946s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.259s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.267s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.268s] -- Searching for dependencies of ignition-transport8
+[4.297s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.316s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.324s] -- Checking for module 'libzmq >= 4'
+[4.354s] --   Found libzmq , version 4.3.4
+[4.421s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.430s] -- Checking for module 'uuid'
+[4.455s] --   Found uuid, version 2.37.2
+[4.517s] -- Found UUID: TRUE  
+[4.525s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.526s] -- Searching for dependencies of ignition-msgs5
+[4.555s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.563s] -- Checking for module 'tinyxml2'
+[4.591s] --   Found tinyxml2, version 9.0.0
+[4.653s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.661s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.661s] -- Searching for dependencies of ignition-common3
+[4.662s] -- Looking for dlfcn.h - found
+[4.664s] -- Looking for libdl - found
+[4.665s] -- Found DL: TRUE  
+[4.688s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.689s] -- Searching for <ignition-common3> component [graphics]
+[4.697s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.697s] -- Searching for dependencies of ignition-common3-graphics
+[4.698s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.707s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.708s] -- Searching for dependencies of ignition-fuel_tools4
+[4.852s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.869s] -- Checking for module 'jsoncpp'
+[4.897s] --   Found jsoncpp, version 1.9.5
+[4.960s] -- Found JSONCPP: TRUE  
+[4.968s] -- Checking for module 'libzip'
+[4.994s] --   Found libzip, version 1.7.3
+[5.057s] -- Found ZIP: TRUE  
+[5.057s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.058s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.058s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.068s] -- Gazebo version: 11.10
+[5.068s] -- Checking for module 'tbb'
+[5.096s] --   Found tbb, version 2021.5.0
+[5.169s] -- Found ros_gz: 0.244.14 (/opt/ros/humble/share/ros_gz/cmake)
+[5.176s] -- Found ros_gz_bridge: 0.244.14 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[5.450s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.388s] -- Found ros_gz_sim: 0.244.14 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[6.398s] -- Found ros_gz_image: 0.244.14 (/opt/ros/humble/share/ros_gz_image/cmake)
+[6.406s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[6.505s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[6.505s]   ament_python_install_package() the Python package folder
+[6.505s]   '/home/joaquin/robot_arm_ws/src/mycobot_ros2/mycobot_gazebo/mycobot_gazebo'
+[6.505s]   doesn't contain an '__init__.py' file
+[6.505s] Call Stack (most recent call first):
+[6.505s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[6.505s]   CMakeLists.txt:26 (ament_python_install_package)
+[6.505s] 
+[6.505s] [0m
+[6.506s] -- Configuring incomplete, errors occurred!
+[6.506s] See also "/home/joaquin/robot_arm_ws/src/mycobot_ros2/build/mycobot_gazebo/CMakeFiles/CMakeOutput.log".
+[6.524s] Invoked command in '/home/joaquin/robot_arm_ws/src/mycobot_ros2/build/mycobot_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaquin/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/joaquin/robot_arm_ws/src/mycobot_ros2/mycobot_gazebo -DCMAKE_INSTALL_PREFIX=/home/joaquin/robot_arm_ws/src/mycobot_ros2/install/mycobot_gazebo
